@@ -24,7 +24,8 @@ button.addEventListener("click", function(){
 function progressInterval(){
     if(count == 100 && percentWidth == 100){
         clearInterval(progressLoad)
-        percent.textContent = "Ok rùi đó:)";
+        percent.textContent = "Bé ơi Hoàng tới rùiii!";
+        percent.innerHTML += ' <i class="fas fa-heart"></i>';
         percent.style.letterSpacing = "1px";
         textBox.style.transform = "scale(1.3)"
         heartItem3.style.animation = "1s heartScale forwards"
